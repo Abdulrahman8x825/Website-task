@@ -277,16 +277,48 @@ font-size: 20px;
 
 .reviews,
 .blog {
-  background-color: #ffffff;
+  
   padding: 60px 0;
+}
+.reviews-container{
+ 
+  grid-template-columns: 1fr 1fr 1fr 1fr; 
+  padding: 50px;
+  display: flex;
+  gap: 40px; 
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 24px;
+  box-shadow: rgba(0, 255, 213, 0.8) 0px 1px 10px 2px;
+  
+}
+
+.card_right_icon  i {
+ 
+  
+  font-size: 100px;
+  color: #eaeaea;
+  float: right;
+  margin-top: -40px;
+  
+  
+}
+
+.card h4 {
+  margin: 10px 0;
+}
+.card_icons{
+  font-size: 20px;
+  color: #489da3;
 }
 
 .review-grid,
 .blog-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 30px;
-  margin-top: 20px;
+
 }
 
 .review,
