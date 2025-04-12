@@ -303,7 +303,7 @@ font-size: 20px;
   font-size: 100px;
   color: #eaeaea;
   float: right;
-  margin-top: -40px;
+  margin-right: -10px; 
   
   
 }
@@ -312,19 +312,36 @@ font-size: 20px;
   margin: 10px 0;
 }
 .card_icons{
-  font-size: 20px;
+  font-size: 13px;
   color: #489da3;
 }
-
-.review-grid,
-.blog-grid {
-
+.card_picture img{
+  width: 100px;        
+  height: 100px;
+  border-radius: 50%;   
+  object-fit: cover;   
 }
 
-.review,
-.blog-post {
-  background: #f0f0f0;
-  padding: 20px;
- 
-  color: #333;
+
+
+
+.banner {
+  width: 100%;
+  height: 50vh;
+  background-image: url('https://lh3.googleusercontent.com/d/1gK-UrmzqhTrFFL-0u1YTQ8E7IMyPrXKE');
+  background-size: cover;
+  background-position: center;
+}
+
+.banner_btn {
+  padding: 8px 20px;
+  background: #089da1;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  top: 80%;
+  left: 7%;
+}
+.banner_btn:hover {
+  background-color: #377e84;
 }
