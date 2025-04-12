@@ -58,7 +58,7 @@ body {
   display: flex;
   gap: 15px;
 
-font-size: 20px;
+ font-size: 20px;
 
 }
 
@@ -331,6 +331,7 @@ font-size: 20px;
   background-image: url('https://lh3.googleusercontent.com/d/1gK-UrmzqhTrFFL-0u1YTQ8E7IMyPrXKE');
   background-size: cover;
   background-position: center;
+  margin-bottom: 150px;
 }
 
 .banner_btn {
@@ -344,4 +345,39 @@ font-size: 20px;
 }
 .banner_btn:hover {
   background-color: #377e84;
+}
+
+.footer {
+  background: rgba(202,202,202);
+ 
+
+  padding: 40px 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+
+  
+}
+
+.footer-container {
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+
+}
+
+.footer-container img {
+  width: 80px;
+  margin-bottom: 10px;
+  
+}
+.footer-container a {
+  color: #000;
+  text-decoration: none;
+  
 }
