@@ -245,6 +245,35 @@
     font-weight: bold;
     
   }
+  .arrivalsbook {
+    background: #ffffff;
+    padding: 5px 40px 10px;
+   
+    border: 1px solid #919191;
+    box-shadow: inset 0 0 8px rgba(0,0,0,0.2);
+    text-align: center;
+  }
+  .arrivalsbook img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+    
+  }
+  .arrivals-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    gap: 20px 80px;
+    padding: 0 20px;
+    margin-bottom: 100px;
+    
+  }
+  .arrivals_icons{
+    font-size: 0.9rem;
+    color: #489da3;
+  }
+  .arrivals h4{
+    font-weight: lighter;
+  }
   
   .reviews,
   .blog {
