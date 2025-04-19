@@ -563,3 +563,14 @@ footer .end span{
   color: #089da1;
   cursor: pointer;
 }
+
+
+
+
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+
